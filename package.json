@@ -10,6 +10,8 @@
     "test:all": "vitest",
     "test:accessibility": "vitest accessibility --run",
     "coverage": "vitest --coverage --run",
+    "format:check": "prettier . --check --ignore-path .gitignore",
+    "format:fix": "prettier . --check --ignore-path .gitignore",
     "test": "vitest",
     "build": "tsc && vite build",
     "preview": "vite preview"
