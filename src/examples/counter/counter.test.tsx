@@ -1,7 +1,6 @@
 // @vitest-environment happy-dom
 
 import { screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import { render } from './test/utilities';
 
 import Counter from '.';
